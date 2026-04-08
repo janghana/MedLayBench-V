@@ -28,8 +28,8 @@ Each example contains:
 ```text
 image        bytes  the medical image (CT / MRI / X-Ray / Ultrasound / ...)
 cuis         str    list of UMLS CUIs from MedCAT (e.g. "['C0040405']")
-expert_caption str    expert caption (T_exp)
-layman_caption str    SCGR-refined lay caption (T_lay)
+expert_caption str    expert caption $T_{\text{exp}}$
+layman_caption str    SCGR-refined lay caption $T_{\text{lay}}$
 ```
 
 | Split      | #Samples |
@@ -57,7 +57,7 @@ SCGR builds the lay caption by anchoring it to two complementary constraint sour
 - **C<sub>ent</sub>** &mdash; fine-grained entity constraints (sizes, anatomy,
   laterality) extracted by [SciSpacy](https://allenai.github.io/scispacy/) NER.
 
-The constraint set `C = C_onto ∪ C_ent` is then passed to
+The constraint set `$C = C_{\text{onto}} \cup C_{\text{ent}}$` is then passed to
 [Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct)
 which is restricted to grammar / fluency rewriting, never to inventing facts.
 
