@@ -26,11 +26,10 @@ Paper (ACL 2026 Findings, Oral)
 Each example contains:
 
 ```text
-image_id     str    e.g. "ROCOv2_2023_test_000001"
 image        bytes  the medical image (CT / MRI / X-Ray / Ultrasound / ...)
-cui          str    list of UMLS CUIs from MedCAT (e.g. "['C0040405']")
-caption      str    expert caption (T_exp)
-lay_refined  str    SCGR-refined lay caption (T_lay)
+cuis         str    list of UMLS CUIs from MedCAT (e.g. "['C0040405']")
+expert_caption str    expert caption (T_exp)
+layman_caption str    SCGR-refined lay caption (T_lay)
 ```
 
 | Split      | #Samples |
