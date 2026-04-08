@@ -23,12 +23,12 @@ Paper (ACL 2026 Findings, Oral)
 
 ## Dataset
 
-Each example contains:
-
-```text
-image        bytes  the medical image (CT / MRI / X-Ray / Ultrasound / ...)
-cuis         str    list of UMLS CUIs from MedCAT (e.g. "['C0040405']")
-expert_caption str    expert caption $T_{\text{exp}}$
+| Field | Type | Description |
+|-------|------|-------------|
+| `image` | bytes | the medical image (CT / MRI / X-Ray / Ultrasound / ...) |
+| `cuis` | str | list of UMLS CUIs from MedCAT |
+| `expert_caption` | str | expert caption $T_{\text{exp}}$ |
+| `layman_caption` | str | SCGR-refined lay caption $T_{\text{lay}}$ |
 layman_caption str    SCGR-refined lay caption $T_{\text{lay}}$
 ```
 
