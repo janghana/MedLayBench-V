@@ -1,0 +1,282 @@
+[
+  {
+    "image_id": "ROCOv2_2023_test_000001",
+    "image": "images/ROCOv2_2023_test_000001.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "CT chest axial view showing a huge ascending aortic aneurysm (*).",
+    "layman_caption": "The CT scan of the chest shows a large bulge in the upper part of the aorta."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000002",
+    "image": "images/ROCOv2_2023_test_000002.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Computed tomography (CT) shows floating thrombosis (white arrow)",
+    "layman_caption": "Computed tomography (CT) shows a blood clot (white arrow)."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000003",
+    "image": "images/ROCOv2_2023_test_000003.jpg",
+    "cuis": "['C0002978']",
+    "expert_caption": "Digitally subtracted angiogram demonstrates active extravasation of the superior rectal artery into the ileal-conduit (blue arrow)",
+    "layman_caption": "The digitally subtracted angiogram shows active bleeding from the superior rectal artery into the ileal-conduit (blue arrow)."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000004",
+    "image": "images/ROCOv2_2023_test_000004.jpg",
+    "cuis": "['C0002978']",
+    "expert_caption": "Digitally subtracted angiogram of the IMA demonstrated cessation of flow through the proximal superior rectal artery in the region of the intersection between the artery and ureter with retained perfusion of the rectosigmoid region and resolution of active extravasation",
+    "layman_caption": "The scan shows a blockage of blood flow through the upper part of the artery that supplies the rectum, near where it meets the ureter, but the lower part of the rectum is still getting enough blood."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000005",
+    "image": "images/ROCOv2_2023_test_000005.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Angle measurement of a Type 1 canal.",
+    "layman_caption": "Measurement of the angle of a specific canal."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000006",
+    "image": "images/ROCOv2_2023_test_000006.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Computed tomography on day 26Follow-up enhanced computed tomography on day 26 revealed no apparent progression of left iliopsoas hematoma, and no extravasation of contrast media was seen.",
+    "layman_caption": "The follow-up CT scan on day 26 showed no sign of the left iliopsoas hematoma getting worse, and no contrast dye leaked out."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000007",
+    "image": "images/ROCOv2_2023_test_000007.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Enhanced CT scan of the chest revealed an anterior mediastinal tumor (black arrow).",
+    "layman_caption": "The CT scan of the chest revealed a mass located in the front part of the mediastinum (black arrow)."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000008",
+    "image": "images/ROCOv2_2023_test_000008.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Arrow shows ULP at the distal arch.",
+    "layman_caption": "The scan shows a problem (ULP) at the lower part of the aortic arch."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000009",
+    "image": "images/ROCOv2_2023_test_000009.jpg",
+    "cuis": "['C0024485']",
+    "expert_caption": "Early sagittal T2-weighted MRI.",
+    "layman_caption": "The scan is an early image taken from the side (sagittal view) using a type of MRI that highlights differences in the water content of tissues."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000010",
+    "image": "images/ROCOv2_2023_test_000010.jpg",
+    "cuis": "['C0024485']",
+    "expert_caption": "Late axial T2-weighted MRI.",
+    "layman_caption": "A T2-weighted MRI taken from the side (axial view) of the body."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000011",
+    "image": "images/ROCOv2_2023_test_000011.jpg",
+    "cuis": "['C0041618']",
+    "expert_caption": "Transverse US image of the left ovary demonstrates the “string of pearls” sign.",
+    "layman_caption": "The transverse ultrasound image of the left ovary shows a characteristic string of pearls sign."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000012",
+    "image": "images/ROCOv2_2023_test_000012.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Neck CT showing a left lymph node conglomerate with hypodense images due to necrotic changes, loss of cleavage plane with muscle structures, and mass effect on the ipsilateral jugular vein.CT: computed tomography",
+    "layman_caption": "The scan shows a group of swollen lymph nodes on the left side of the neck with areas that appear less dense due to damaged tissue, and these swollen nodes are pressing on the nearby jugular vein."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000013",
+    "image": "images/ROCOv2_2023_test_000013.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Postoperative computed tomography angiography showing that the left internal mammary artery graft was patent, with good distal run-off in the left anterior descending artery.",
+    "layman_caption": "The scan after surgery shows that the left internal mammary artery bypass is open and functioning properly, with good blood flow to the left main artery."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000014",
+    "image": "images/ROCOv2_2023_test_000014.jpg",
+    "cuis": "['C0002978']",
+    "expert_caption": "DSA showing self-expandable stent of the left ICA.Foot note: DSA, Digital Subtraction Angiography; ICA, Internal Carotid Artery.",
+    "layman_caption": "The scan shows a self-expandable stent in the left Internal Carotid Artery."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000015",
+    "image": "images/ROCOv2_2023_test_000015.jpg",
+    "cuis": "['C1306645', 'C0817096', 'C1996865']",
+    "expert_caption": "Chest radiography shows aneurysm as protruding mass.",
+    "layman_caption": "The chest X-ray shows an aneurysm as a bulging mass."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000016",
+    "image": "images/ROCOv2_2023_test_000016.jpg",
+    "cuis": "['C1306645', 'C0037949', 'C0205129']",
+    "expert_caption": "Abdominal X-ray. SEMS was placed beyond the stenosis.",
+    "layman_caption": "The abdominal X-ray shows a stenosis, and a SEMS (self-expandable metal stent) was placed beyond it."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000017",
+    "image": "images/ROCOv2_2023_test_000017.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "HRCT done on presentation to the ER that shows B/L ground glass infiltrates with patchy consolidations involving mainly the peripheries",
+    "layman_caption": "The scan shows bilateral ground glass opacities with patchy areas of lung tissue involvement mainly in the outer parts of the lungs."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000018",
+    "image": "images/ROCOv2_2023_test_000018.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Large left-sided pneumothorax with typical COVID-19 lungs infiltrate",
+    "layman_caption": "The scan shows a large air pocket on the left side of the chest and typical lung changes associated with COVID-19."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000019",
+    "image": "images/ROCOv2_2023_test_000019.jpg",
+    "cuis": "['C0002978']",
+    "expert_caption": "Retrograde portography performed with 10 mL iodinated contrast medium over a 5 French catheter.",
+    "layman_caption": "Retrograde portography was performed using a small amount of a special liquid called contrast medium, which contains iodine, injected through a thin tube called a 5 French catheter."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000020",
+    "image": "images/ROCOv2_2023_test_000020.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Computed tomography of the head: coronal view showing the effacement of the left lateral ventricle frontal horn and 5-mm left to right midline shift (yellow arrow) secondary to intraparenchymal hemorrhage (red arrow)",
+    "layman_caption": "Computed tomography of the head: coronal view showing the compression of the left lateral ventricle and a 5-mm shift of the brain tissue towards the right side (yellow arrow) due to bleeding within the brain (red arrow)."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000021",
+    "image": "images/ROCOv2_2023_test_000021.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": " Computed tomography of the head showing large intraparenchymal hemorrhage of the left anterior temporal lobe and left inferior frontal lobe (arrows) with surrounding edema and mass effect.",
+    "layman_caption": "The scan shows a large bleeding in the left anterior temporal lobe and left inferior frontal lobe of the brain (indicated by arrows) with surrounding swelling and mass effect."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000022",
+    "image": "images/ROCOv2_2023_test_000022.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": " Retroperitoneal mass detected on enhanced abdominal computed tomography. The yellow arrow indicates the tumor was closely related to the liver.",
+    "layman_caption": "Retroperitoneal mass detected on enhanced abdominal computed tomography. The yellow arrow indicates the mass is closely related to the liver."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000023",
+    "image": "images/ROCOv2_2023_test_000023.jpg",
+    "cuis": "['C1306645', 'C0023216', 'C0205129']",
+    "expert_caption": "Ankle X-ray (lateral view). No abnormality found on plain X-ray.",
+    "layman_caption": "The ankle X-ray, taken from the side, shows no issues."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000024",
+    "image": "images/ROCOv2_2023_test_000024.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Chest CT at relapse showed pericardial effusion and ground glass bilateral opacities.",
+    "layman_caption": "The scan showed fluid accumulation around the heart and patchy white areas on both lungs."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000025",
+    "image": "images/ROCOv2_2023_test_000025.jpg",
+    "cuis": "['C0024485']",
+    "expert_caption": "Brain MRI axial FLAIR showing hyperintensities in the anterior temporal lobe bilaterally. FLAIR: fluid-attenuated inversion recovery",
+    "layman_caption": "The brain MRI scan shows bright areas in the front part of the brain on both sides."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000026",
+    "image": "images/ROCOv2_2023_test_000026.jpg",
+    "cuis": "['C0024485']",
+    "expert_caption": "Brain MRI coronal T2 showing hyperintensity in the right anterior temporal lobe",
+    "layman_caption": "The brain MRI scan shows a bright area in the right side of the brain's front upper part."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000027",
+    "image": "images/ROCOv2_2023_test_000027.jpg",
+    "cuis": "['C0041618']",
+    "expert_caption": "Longitudinal long-axis transthoracic echography after an uneventful vegetation excision, partial leaflet resection, and reconstruction by pericardial patch and ring annuloplasty (the latter is indicated by the arrow). Traces of colour Doppler flow in the left atrium indicates severe mitral regurgitation resolution after surgery. Anatomical landmarks: AA, ascending aorta; LA, left atrium; LV, left ventricle; RV, right ventricle.",
+    "layman_caption": "The scan shows a successful reconstruction of the heart after surgery, using a pericardial patch and ring annuloplasty (indicated by the arrow), following an uneventful removal of a vegetation and partial repair of the heart valve. The scan also shows improved blood flow in the left atrium, indicating a resolution of severe mitral regurgitation after the procedure. Anatomical landmarks include the ascending aorta (AA), left atrium (LA), left ventricle (LV), and right ventricle (RV)."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000028",
+    "image": "images/ROCOv2_2023_test_000028.jpg",
+    "cuis": "['nan']",
+    "expert_caption": "The whole body F18-FDG PET/CT tomography scan (July 31, 2009) showing multiple enlarged lymph nodes on left supraclavicular area. F18-FDG-PET/CT = Fluorine 18 fluorodeoxyglucose- Positron emission tomography/computed tomography.",
+    "layman_caption": "The whole body PET/CT scan (July 31, 2009) shows multiple enlarged lymph nodes in the left supraclavicular area."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000029",
+    "image": "images/ROCOv2_2023_test_000029.jpg",
+    "cuis": "['C0032743']",
+    "expert_caption": "Disappearance of FDG accumulation during the subsequent patient follow-up.",
+    "layman_caption": "The scan shows a decrease in the amount of a substance that was previously detected in the body during a follow-up examination."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000030",
+    "image": "images/ROCOv2_2023_test_000030.jpg",
+    "cuis": "['C1306645', 'C0817096', 'C1999039']",
+    "expert_caption": " The typical chest X-ray finding of a patient with coronavirus disease 2019 infection showing bilateral infiltration.",
+    "layman_caption": "The typical chest X-ray finding of a patient with COVID-19 infection showing bilateral infiltration."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000031",
+    "image": "images/ROCOv2_2023_test_000031.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Coronal view of the lesion within the left adnexa, which contains a thin septation measuring 4.3 cm and adjacent free fluid extending to the posterior cul-de-sac and a homogeneously enlarged liver.",
+    "layman_caption": "The scan shows a lesion in the left adnexa, which contains a thin wall dividing it into parts, measuring 4.3 cm, and has fluid nearby that extends to the back of the pelvis."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000032",
+    "image": "images/ROCOv2_2023_test_000032.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Computed tomography image of the abdomen showing adrenal mass on axial plane. Image showing heterogenous 7.7 cm lesion (white line measure) appearing to be arising from left adrenal glands in contact with the upper pole of left kidney with areas of hypodensity suggesting necrosis. ",
+    "layman_caption": "The computed tomography image of the abdomen shows a 7.7 cm mass in the left adrenal gland area, near the upper part of the left kidney, with some areas that appear less dense and may indicate tissue damage."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000033",
+    "image": "images/ROCOv2_2023_test_000033.jpg",
+    "cuis": "['C1306645', 'C0037303']",
+    "expert_caption": "Postoperative panoramic radiograph at one-year follow-up showing the management of high caries risk patient.",
+    "layman_caption": "Postoperative panoramic radiograph at one-year follow-up showing the management of a patient with a high risk of tooth decay."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000034",
+    "image": "images/ROCOv2_2023_test_000034.jpg",
+    "cuis": "['C0041618']",
+    "expert_caption": "Transthoracic echocardiogram. Ao=aorta; PA=pulmonary artery; PDA=patent ductus arteriosus.",
+    "layman_caption": "Transthoracic echocardiogram. Ao=aorta; PA=pulmonary artery."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000035",
+    "image": "images/ROCOv2_2023_test_000035.jpg",
+    "cuis": "['C1306645', 'C0030797', 'C1999039']",
+    "expert_caption": "Plain radiograph of the pelvis shows deformation of the left femoral head, narrowing of hip space, and osteophyte hyperplasia.",
+    "layman_caption": "The plain X-ray of the pelvis shows deformation of the left femoral head, narrowing of the space between the hip bones, and extra bone growths near the joints."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000036",
+    "image": "images/ROCOv2_2023_test_000036.jpg",
+    "cuis": "['C0041618']",
+    "expert_caption": "Operative planning ultrasound prior to ultrasound-guided subcutaneous collection drainage and appendicolith retrieval. The red arrow indicates the hypoechoic collection with some internal echoes overlying to the abdominal wall (green arrow), with internal appendicoliths (white arrows). The collection measured 34 mm deep to the skin.",
+    "layman_caption": "Operative planning ultrasound prior to ultrasound-guided subcutaneous collection drainage and appendicolith retrieval. The scan shows a hypoechoic collection near the abdominal wall with some internal echoes, and a few small, white objects (appendicoliths) are visible inside the collection. The collection is 34 mm deep to the skin."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000037",
+    "image": "images/ROCOv2_2023_test_000037.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "CT Chest before starting chemotherapy showed bilateral parenchymal metastatic nodules(red arrow)",
+    "layman_caption": "The CT scan of the chest before starting chemotherapy showed small growths (bilateral nodules) in the lungs (red arrow)."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000038",
+    "image": "images/ROCOv2_2023_test_000038.jpg",
+    "cuis": "['C1306645', 'C0817096', 'C1996865']",
+    "expert_caption": "Chest X-ray showed left-sided pneumothorax (yellow arrows) and ICT in situ (red arrow).",
+    "layman_caption": "The chest X-ray showed a left-sided pneumothorax (indicated by yellow arrows) and an object or foreign body (such as a bullet) that was left inside the body (indicated by a red arrow)."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000039",
+    "image": "images/ROCOv2_2023_test_000039.jpg",
+    "cuis": "['C1306645', 'C0817096', 'C1996865']",
+    "expert_caption": "Post-Pleurodesis Chest X-ray.",
+    "layman_caption": "The chest X-ray shows the lungs and chest cavity after a procedure called pleurodesis, which helps to prevent fluid from accumulating in the space between the lungs and chest wall."
+  },
+  {
+    "image_id": "ROCOv2_2023_test_000040",
+    "image": "images/ROCOv2_2023_test_000040.jpg",
+    "cuis": "['C0040405']",
+    "expert_caption": "Computed tomography scan showing metallic object in appendix",
+    "layman_caption": "The CT scan shows a metallic object in the appendix."
+  }
+]

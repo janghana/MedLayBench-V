@@ -1,0 +1,11 @@
+datasets>=2.18
+transformers>=4.43
+torch>=2.1
+scispacy>=0.5.4
+spacy>=3.7
+requests>=2.31
+pandas>=2.0
+pyarrow>=14.0
+tqdm>=4.66
+Pillow>=10.0
+open_clip_torch
