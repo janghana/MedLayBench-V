@@ -24,12 +24,10 @@ Paper (ACL 2026 Findings, Oral)
 ## Dataset
 
 
-`image` — the medical image (CT / MRI / X-Ray / Ultrasound / ...)
-`cuis` — list of UMLS CUIs from MedCAT (e.g. `["C0040405"]`)
-`expert_caption` — expert caption $T_{\text{exp}}$
+`image` — the medical image (CT / MRI / X-Ray / Ultrasound / ...)  
+`cuis` — list of UMLS CUIs from MedCAT (e.g. `["C0040405"]`)  
+`expert_caption` — expert caption $T_{\text{exp}}$  
 `layman_caption` — SCGR-refined lay caption $T_{\text{lay}}$
-layman_caption str    SCGR-refined lay caption $T_{\text{lay}}$
-```
 
 | Split      | #Samples |
 |------------|---------:|
@@ -41,7 +39,6 @@ layman_caption str    SCGR-refined lay caption $T_{\text{lay}}$
 ```python
 from datasets import load_dataset
 ds = load_dataset("hanjang/MedLayBench-V")
-```
 
 See [`tutorials/dataset.ipynb`](tutorials/dataset.ipynb) for an end-to-end walkthrough.
 
@@ -67,7 +64,6 @@ scgr = SCGRPipeline(umls_api_key="YOUR_UMLS_KEY")
 expert = "Thoracic CT scan showing perihilar lymphadenomegaly."
 print(scgr.refine(expert, cuis=["C0040405", "C0024265"]))
 # The Chest CT scan shows enlarged lymph nodes near the center of the lungs.
-```
 
 Implementation lives in [`model/SCGR/`](model/SCGR/).
 
@@ -77,14 +73,12 @@ Implementation lives in [`model/SCGR/`](model/SCGR/).
 
 ## Repository Layout
 
-```
 .
 ├── README.md
 ├── assets/                    figures
 ├── data/                      sample previews
 ├── model/SCGR/                Structured Concept-Grounded Refinement
 └── tutorials/dataset.ipynb    load, browse, and analyze MedLayBench-V
-```
 
 ## Installation
 
@@ -92,7 +86,6 @@ Implementation lives in [`model/SCGR/`](model/SCGR/).
 git clone https://github.com/janghana/MedLayBench-V.git
 cd MedLayBench-V
 pip install -r requirements.txt
-```
 
 ## Citation
 
@@ -106,7 +99,6 @@ pip install -r requirements.txt
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2604.05738}, 
 }
-```
 
 ## License
 
