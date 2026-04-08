@@ -2,17 +2,17 @@
 
 # MedLayBench-V
 
-**A Large-Scale Benchmark for Expert&ndash;Lay Semantic Alignment in Medical Vision-Language Models**
+**A Large-Scale Benchmark for Expert–Lay Semantic Alignment in Medical Vision-Language Models**
 
 Han Jang<sup>\*</sup>, Junhyeok Lee<sup>\*</sup>, Heeseong Eum, Kyu Sung Choi<sup>&dagger;</sup>
 
-<sub>Seoul National University &middot; SNU College of Medicine &middot; SNU Hospital &middot; AICON Lab</sub>
+<sub>Seoul National University · SNU College of Medicine · SNU Hospital · AICON Lab</sub>
 
 <sub><sup>\*</sup> Equal contribution. &nbsp; <sup>&dagger;</sup> Corresponding author.</sub>
 
 [Project Page](https://janghana.github.io/MedLayBench-V/) &middot;
 [Hugging Face Dataset](https://huggingface.co/datasets/hanjang/MedLayBench-V) &middot;
-Paper (ACL 2026 Findings, Oral)
+[Paper](https://arxiv.org/abs/2604.05738) (ACL 2026 Findings, Oral)
 
 </div>
 
@@ -23,6 +23,7 @@ Paper (ACL 2026 Findings, Oral)
 
 ## Dataset
 
+Each example contains:
 
 `image` — the medical image (CT / MRI / X-Ray / Ultrasound / ...)  
 `cuis` — list of UMLS CUIs from MedCAT (e.g. `["C0040405"]`)  
@@ -36,9 +37,10 @@ Paper (ACL 2026 Findings, Oral)
 | Test       | 9,927    |
 | **Total**  | **79,793** |
 
-```python
+~~~python
 from datasets import load_dataset
 ds = load_dataset("hanjang/MedLayBench-V")
+~~~
 
 See [`tutorials/dataset.ipynb`](tutorials/dataset.ipynb) for an end-to-end walkthrough.
 
@@ -53,17 +55,18 @@ SCGR builds the lay caption by anchoring it to two complementary constraint sour
 - **C<sub>ent</sub>** &mdash; fine-grained entity constraints (sizes, anatomy,
   laterality) extracted by [SciSpacy](https://allenai.github.io/scispacy/) NER.
 
-The constraint set `$C = C_{\text{onto}} \cup C_{\text{ent}}$` is then passed to
+The constraint set $C = C_{\text{onto}} \cup C_{\text{ent}}$ is then passed to
 [Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct)
 which is restricted to grammar / fluency rewriting, never to inventing facts.
 
-```python
+~~~python
 from model.SCGR import SCGRPipeline
 
 scgr = SCGRPipeline(umls_api_key="YOUR_UMLS_KEY")
 expert = "Thoracic CT scan showing perihilar lymphadenomegaly."
 print(scgr.refine(expert, cuis=["C0040405", "C0024265"]))
 # The Chest CT scan shows enlarged lymph nodes near the center of the lungs.
+~~~
 
 Implementation lives in [`model/SCGR/`](model/SCGR/).
 
@@ -73,23 +76,26 @@ Implementation lives in [`model/SCGR/`](model/SCGR/).
 
 ## Repository Layout
 
+~~~
 .
 ├── README.md
 ├── assets/                    figures
 ├── data/                      sample previews
 ├── model/SCGR/                Structured Concept-Grounded Refinement
 └── tutorials/dataset.ipynb    load, browse, and analyze MedLayBench-V
+~~~
 
 ## Installation
 
-```bash
+~~~bash
 git clone https://github.com/janghana/MedLayBench-V.git
 cd MedLayBench-V
 pip install -r requirements.txt
+~~~
 
 ## Citation
 
-```bibtex
+~~~bibtex
 @misc{jang2026medlaybenchvlargescalebenchmarkexpertlay,
       title={MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical Vision Language Models}, 
       author={Han Jang and Junhyeok Lee and Heeseong Eum and Kyu Sung Choi},
@@ -99,6 +105,7 @@ pip install -r requirements.txt
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2604.05738}, 
 }
+~~~
 
 ## License
 
